@@ -5,29 +5,16 @@
     "iisExpress": {
       "applicationUrl": "http://localhost:5001",
       "sslPort": 0
+    }
+  },
+  "profiles": {
+    "DockerDemo": {
+      "commandName": "Project"
     },
-    "profiles": {
-      "IIS Express": {
-        "commandName": "IISExpress",
-        "launchBrowser": true,
-        "environmentVariables": {
-          "ASPNETCORE_ENVIRONMENT": "local"
-        }
-      },
-      "DockerDemo": {
-        "commandName": "Project",
-        "launchBrowser": true,
-        "environmentVariables": {
-          "ASPNETCORE_ENVIRONMENT": "local"
-        },
-        "applicationUrl": "http://localhost:5001/"
-      },
-      "Docker": {
-        "commandName": "Docker",
-        "launchBrowser": true,
-        "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-        "publishAllPorts": true
-      }
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true
     }
   }
 }
