@@ -16,7 +16,7 @@ namespace DockerDemo.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value11", "value22" };
+            return new string[] { "value1133", "value2233" };
         }
 
         // GET api/<ValuesController>/5
